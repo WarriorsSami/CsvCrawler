@@ -3,8 +3,8 @@ package main
 // NOTE: There should be NO space between the comments and the `import "C"` line.
 
 /*
-#cgo LDFLAGS: -L./backend -lbackend
-#include "./api/api.h"
+#cgo LDFLAGS: -L./lib -lbackend
+#include "../api/api.h"
 */
 import "C"
 
